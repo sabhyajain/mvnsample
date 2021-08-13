@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CustomSuite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="5" name="ModuleOneTest(failed)">
+    <classes>
+      <class name="testScript.TestNgSample">
+        <methods>
+          <include name="startMethod"/>
+          <include name="searchSeleniumTest2"/>
+          <include name="tearDown"/>
+          <include name="searchSeleniumTest1"/>
+        </methods>
+      </class> <!-- testScript.TestNgSample -->
+    </classes>
+  </test> <!-- ModuleOneTest(failed) -->
+</suite> <!-- Failed suite [CustomSuite] -->
